@@ -1,18 +1,34 @@
-# Retail Sales Analysis Using SQL
+# Retail Sales Insights
 
-## Objective
-Analyzing retail sales data to identify trends, top-performing products, and customer behavior using SQL.
+## Overview
+This project analyzes retail sales data to uncover insights such as:
+- Trends in sales by product category.
+- Customer segmentation by gender and age.
+- Overall sales performance.
 
 ## Dataset
-- **Columns**: Transaction ID, Date, Customer ID, Gender, Age, Product Category, Quantity, Price per Unit, Total Amount.
-- **Rows**: ~1000 transactions.
+- **File:** retail_sales_dataset.csv
+- **Columns:**
+  - Transaction ID: Unique identifier for each transaction.
+  - Date: Date of the transaction.
+  - Customer ID: Unique identifier for the customer.
+  - Gender: Customer gender (Male/Female).
+  - Age: Customer age.
+  - Product Category: Category of the purchased product.
+  - Quantity: Quantity purchased.
+  - Price per Unit: Price for a single unit.
+  - Total Amount: Total amount spent.
 
-## Key Analyses
-- Sales trends over time.
-- Top products by revenue.
-- Customer segmentation by age and gender.
+## SQL File
+- **File:** SQLPO.sql
+- Contains queries for:
+  - Cleaning the data.
+  - Calculating total sales, average profit, and more.
+  - Generating insights for decision-making.
 
-## Skills Demonstrated
-- SQL queries for data cleaning and analysis.
-- Aggregate functions, group by, and joins.
-- Insights generation for business decision-making.
+## Tools Used
+- MySQL Workbench for writing and testing SQL queries.
+
+## How to Use
+1. Load the dataset into your SQL database.
+2. Run the queries in `SQLPO.sql` to generate insights.
